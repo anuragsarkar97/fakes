@@ -17,6 +17,6 @@ find ./ -maxdepth 1 -type f -name "*.txt" -print0 | \
         head -n 1 | xargs -0 rm
 echo "removing old files ..."
 git add .
-gti commit -am "removed some files -- hash $RANDOM"
+git commit -am "removed some files -- hash $RANDOM"
 git push 
 echo "Process complete ..."
