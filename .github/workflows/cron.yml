@@ -11,8 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        sh cron
+    - name: add git config 1
+      run: git config --global user.email "sarkar.anurag@oyorooms.com"
+    - name:  add git config 1
+      run: git config --global user.name "anuragsarkar97"
+    - name: Run script
+      run: sh cron
