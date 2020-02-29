@@ -1,7 +1,7 @@
 # FAKES
 
 ## DISCLAIMER
-Only for lazy people who forget to commit thier code everyday
+Only for dumb people who think making the calender green makes them cool.
 
 
 ## How to USE
